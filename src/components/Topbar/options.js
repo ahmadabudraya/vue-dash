@@ -1,0 +1,30 @@
+export default [
+  {
+    title:'Repairs',
+    withChildren:true,
+  },
+  {
+    title:'Inventory',
+    withChildren:true,
+  },
+  {
+    title:'Customer',
+    withChildren:true,
+  },
+  {
+    title:'Point of Sales',
+    withChildren:false,
+  },
+  {
+    title:'Reports',
+    withChildren:false,
+  },
+  {
+    title:'Campaigner',
+    withChildren:false,
+  },
+  {
+    title:'Expense',
+    withChildren:false,
+  },
+]

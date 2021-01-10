@@ -1,0 +1,99 @@
+[
+  {
+    "id":1,
+    "type": "Numeric",
+    "order":1,
+    "items":[
+      {"id":1, "order":1, "title":"Repairs", "price":7645.86, "total":15000, "inc":25},
+      {"id":2, "order":2, "title":"Network Unlocks", "price":3641.14, "total":25000, "inc":10.5},
+      {"id":3, "order":3, "title":"Accessories & Parts", "price":6950.10, "total":5000, "inc":40.3},
+      {"id":4, "order":4, "title":"Trade In", "price":9632.51, "total":12000, "inc":14}
+    ]
+  },
+  {
+    "id":2,
+    "order":2,
+    "type":"Progress",
+    "title":"Store profile",
+    "img":"https://cdn4.iconfinder.com/data/icons/creative-process-16/512/Responsive_Design-256.png",
+    "progress":62
+  },
+  {
+    "id":3,
+    "order":3,
+    "type":"LineChart",
+    "title":"sales vs cogs",
+    "numberOfInvoices":99,
+    "sales":5000,
+    "cogs":2400,
+    "series": [
+      {
+        "name": "Desktops",
+        "data": [10, 41, 35, 51, 49, 62, 69, 91, 148]
+      },
+      {
+        "name": "Mobile",
+        "data": [20, 30, 45, 35, 70, 52, 60, 100, 128]
+      },
+      {
+        "name": "Tablet",
+        "data": [10, 20, 30, 40, 50, 60, 70, 80, 90]
+      }
+    ],
+    "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep"]
+  },
+  {
+    "id":4,
+    "order":4,
+    "type":"PieChart",
+    "title":"how did you hear about us?",
+    "series": [45, 25, 20, 10],
+    "labels":["Facebook", "Youtube", "LinkedIn", "Google Ads"]
+  },
+  {
+    "id":5,
+    "order":6,
+    "type":"RedialBarChart",
+    "title":"sales target",
+    "series": [86],
+    "labels":["Cricket"]
+  },
+  {
+    "id":6,
+    "order":5,
+    "type":"Table",
+    "columns":[
+      {
+        "title":"Tickets #",
+        "dataIndex":"ticket"
+      },
+      {
+        "title":"Task",
+        "dataIndex":"task"
+      },
+      {
+        "title":"Pick up time",
+        "dataIndex":"date"
+      },
+      {
+        "title":"Assign To",
+        "dataIndex":"assignTo"
+      },
+      {
+        "title":"Customer",
+        "dataIndex":"customer"
+      },
+      {
+        "title":"Status",
+        "dataIndex":"status"
+      }
+    ],
+    "dataSource":[
+      {"_id":1, "ticket":"0-14", "task":"iPhone 6 plus home button", "date":"10 Aug 2018 (04:30px)", "assignTo":"Jack anderson", "customer":"Mike jone", "status":"In progress"},
+      {"_id":2, "ticket":"0-15", "task":"iPhone 10 plus home button", "date":"12 Aug 2018 (04:30px)", "assignTo":"Jack anderson", "customer":"Mike jone", "status":"In progress"},
+      {"_id":3, "ticket":"0-17", "task":"Pc home", "date":"12 Aug 2018 (04:30px)", "assignTo":"Jack anderson", "customer":"Mike jone", "status":"In progress"},
+      {"_id":4, "ticket":"0-18", "task":"Pc home", "date":"12 Aug 2018 (04:30px)", "assignTo":"Jack anderson", "customer":"Mike jone", "status":"In progress"},
+      {"_id":5, "ticket":"0-19", "task":"Pc home", "date":"12 Aug 2018 (04:30px)", "assignTo":"Jack anderson", "customer":"Mike jone", "status":"In progress"}
+    ]
+  }
+]
